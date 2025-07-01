@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku</title>
+  <style>
+    #sudoku {
+      display: grid;
+      grid-template-columns: repeat(9, 40px);
+      gap: 2px;
+    }
+    #sudoku input {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+    }
+    #message {
+      margin-top: 20px;
+      font-size: 20px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sudoku</h1>
+  <div id="sudoku">
+    <!-- Sudoku-felterne kommer her -->
+  </div>
+  <button id="check">Tjek løsning</button>
+  <div id="message"></div>
+  <script src="sudoku.js"></script>
+</body>
+</html> 
