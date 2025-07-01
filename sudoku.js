@@ -35,7 +35,7 @@ document.getElementById('check').addEventListener('click', () => {
   if (isSolved(grid)) {
     document.getElementById('message').textContent = "Se på biblioteket";
   } else {
-    document.getElementById('message').textContent = "Løs den og find din computer";
+    document.getElementById('message').textContent = "Løs den og find det du mangler";
   }
 });
 
