@@ -33,9 +33,9 @@ document.getElementById('check').addEventListener('click', () => {
   const grid = Array.from(inputs).map(input => parseInt(input.value, 10) || 0);
 
   if (isSolved(grid)) {
-    document.getElementById('message').textContent = "Du finder det i F/K over skabet ved håndvasken";
+    document.getElementById('message').textContent = "Se på biblioteket";
   } else {
-    document.getElementById('message').textContent = "Fejl! Så nemt slipper du ikke Pernille!";
+    document.getElementById('message').textContent = "Løs den og find din computer";
   }
 });
 
